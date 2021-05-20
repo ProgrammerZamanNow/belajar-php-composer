@@ -1,0 +1,25 @@
+{
+    "name": "programmerzamannow/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eko Kurniawan Khannedy",
+            "email": "echo.khannedy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\" : "src/"
+        }
+    },
+    "require": {
+        "php" : ">=8.0",
+        "programmerzamannow/belajar-php-composer-hello" : "2.0.0",
+        "monolog/monolog" : "2.2.0"
+    },
+    "scripts": {
+        "jalankan-server" : "php -S localhost:8080",
+        "hello" : "echo 'Hello World'"
+    }
+}
